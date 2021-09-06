@@ -253,6 +253,7 @@ nav {
 	border: 2px solid #F0F0F0;
 	border-radius: 10px;
 	background-color: #fff;
+	margin-bottom: 20px;
 }
 
 .testi-text p {
@@ -269,7 +270,40 @@ nav {
 	color: #818181;
 }
 
+/*footer*/
+footer {
+	background-color: #0A1329;
+	color:  #fff;
+	padding: 101px 0 120px 0;
+}
 
+.explore h1, .account-footer h1, .office h1 {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 26px;
+}
+
+.explore a, .account-footer a, .office p {
+	color:  #fff;
+	text-decoration: none;
+	margin-bottom: 21px;
+}
+
+footer .about h1 {
+	font-size: 26px;
+	font-weight: 700;
+	margin-bottom: 26px;
+}
+
+footer .about p {
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 34px;
+}
+
+.social-media a {
+	margin: 0 5px;
+}
 /*Responsive*/
 
 @media (max-width: 991.98px) {
