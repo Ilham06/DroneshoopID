@@ -13,7 +13,7 @@ html {
 
 /*nav*/
 
-nav a {
+/*nav a {
 	color: #000;
 	text-decoration: none;
 }
@@ -43,7 +43,32 @@ nav {
 	height: 50px;
 	background-color: #fff;
 	display: none;
+}*/
+
+nav {
+	padding-top: 45px !important;
 }
+
+.account {
+	margin-left: 20px;
+}
+
+.nav-link {
+	margin: 0 10px;
+}
+
+.account .login {
+	color: #315BC7;
+	padding: 16px 32px;
+}
+
+.account .register {
+	background-color: #315BC7;
+	border-radius: 39px;
+	color:  #fff;
+	padding: 16px 32px;
+}
+
 
 /*header*/
 
@@ -126,7 +151,7 @@ nav {
 #benefit {
 	padding-top: 101px;
 	background-color: #F3F5FC;
-	height: 792px;
+	height: 810px;
 }
 
 .benefit-header h1 {
@@ -285,6 +310,7 @@ footer {
 
 .explore a, .account-footer a, .office p {
 	color:  #fff;
+	font-weight: 300;
 	text-decoration: none;
 	margin-bottom: 21px;
 }
@@ -307,6 +333,61 @@ footer .about p {
 /*Responsive*/
 
 @media (max-width: 991.98px) {
+
+	.navbar-collapse {
+		margin-top: 20px;
+	}
+
+	.account {
+		display: none;
+	}
+
+	/*hero*/
+
+	#hero {
+		margin-top: 80px;
+		/*padding-bottom: 170px;*/
+	}
+
+	#hero h1 {
+		font-size: 42px;
+		font-weight: 700;
+		margin-top: 16px;
+	}
+
+	.hero-desc {
+		text-align: center;
+		margin-bottom: 25px;
+	}
+
+	/*content*/
+	.content-text h2 {
+	font-weight: 600;
+	font-size: 24px;
+	color:  #fff;
+	margin-bottom: 36px;
+}
+
+.content-text p {
+	font-weight: 400;
+	font-size: 18px;
+	color: rgba(255, 255, 255, 0.75)
+}
+
+.benefit-image {
+	display: none;
+}
+
+.benefit-list h1 {
+	font-weight: 500;
+	font-size: 26px;
+}
+
+.benefit-list p {
+	font-size: 16px;
+	color: rgba(10, 19, 41, 0.55);
+}
+
 
 
 }
