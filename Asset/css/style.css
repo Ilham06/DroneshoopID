@@ -151,7 +151,7 @@ nav {
 #benefit {
 	padding-top: 101px;
 	background-color: #F3F5FC;
-	height: 810px;
+	height: 790px;
 }
 
 .benefit-header h1 {
@@ -332,6 +332,11 @@ footer .about p {
 }
 /*Responsive*/
 
+/*phone*/
+
+
+
+/*tablet*/
 @media (max-width: 991.98px) {
 
 	.navbar-collapse {
@@ -361,33 +366,170 @@ footer .about p {
 	}
 
 	/*content*/
+
+
 	.content-text h2 {
-	font-weight: 600;
-	font-size: 24px;
+	font-weight: 700;
+	font-size: 38px;
 	color:  #fff;
 	margin-bottom: 36px;
 }
 
 .content-text p {
-	font-weight: 400;
-	font-size: 18px;
+	font-weight: 500;
+	font-size: 24px;
 	color: rgba(255, 255, 255, 0.75)
 }
 
 .benefit-image {
-	display: none;
+	/*display: none;*/
+	width: 50%;
 }
 
-.benefit-list h1 {
-	font-weight: 500;
+/*.benefit-list h1 {
+	font-weight: 600;
 	font-size: 26px;
 }
 
 .benefit-list p {
 	font-size: 16px;
 	color: rgba(10, 19, 41, 0.55);
+}*/
+
+#video h1 {
+	font-weight: 700;
+	font-size: 46px;
+	margin-bottom: 60px;
+	margin-top: 0;
+	padding-top: 170px;
+
+}
+
+.play-btn {
+	width: 30px;
+	height: 30px;
+}
+
+.benefit-header h1, .header-desc h1 {
+	font-weight: 600;
+	font-size: 38px;
+	margin-bottom: 31px;
+}
+
+.benefit-header p, .header-desc p {
+	font-size: 18px;
+	color: rgba(10, 19, 41, 0.55);
+	margin-bottom: 60px;
+}
+
+#testimonial h1 {
+	font-weight: 700;
+	font-size: 56px;
+	margin-bottom: 70px;
+	text-align: center;
+}
+
+.about, .explore, .account-footer, .office {
+	margin-bottom: 20px;
+}
+
+.explore a, .account-footer a, .office p {
+	color:  #fff;
+	font-weight: 300;
+	text-decoration: none;
+	margin-bottom: 10px;
 }
 
 
+}
+
+@media (max-width: 767.98px) {
+
+	.navbar-collapse {
+		margin-top: 20px;
+	}
+
+	.account {
+		display: none;
+	}
+
+	/*hero*/
+
+	#hero {
+		margin-top: 80px;
+		/*padding-bottom: 170px;*/
+	}
+
+	#hero h1 {
+		font-size: 42px;
+		font-weight: 700;
+		margin-top: 16px;
+	}
+
+	.hero-desc {
+		text-align: center;
+		margin-bottom: 25px;
+	}
+
+	/*content*/
+	.content-text h2 {
+		font-weight: 600;
+		font-size: 24px;
+		color:  #fff;
+		margin-bottom: 36px;
+	}
+
+	.content-text p {
+		font-weight: 400;
+		font-size: 18px;
+		color: rgba(255, 255, 255, 0.75)
+	}
+
+	.benefit-image {
+		display: none;
+	}
+
+	.benefit-list h1 {
+		font-weight: 600;
+		font-size: 26px;
+	}
+
+	.benefit-list p {
+		font-size: 16px;
+		color: rgba(10, 19, 41, 0.55);
+	}
+
+	#video h1 {
+		font-weight: 600;
+		font-size: 36px;
+		margin-bottom: 60px;
+		margin-top: 0;
+		padding-top: 50px;
+
+	}
+
+	.play-btn {
+		width: 30px;
+		height: 30px;
+	}
+
+	.benefit-header h1, .header-desc h1 {
+		font-weight: 600;
+		font-size: 38px;
+		margin-bottom: 31px;
+	}
+
+	.benefit-header p, .header-desc p {
+		font-size: 18px;
+		color: rgba(10, 19, 41, 0.55);
+		margin-bottom: 60px;
+	}
+
+	#testimonial h1 {
+	font-weight: 600;
+	font-size: 46px;
+	margin-bottom: 70px;
+	text-align: center;
+}
 
 }
