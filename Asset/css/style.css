@@ -11,40 +11,6 @@ html {
 	font-family: 'Rubik', sans-serif;
 }
 
-/*nav*/
-
-/*nav a {
-	color: #000;
-	text-decoration: none;
-}
-
-nav {
-	padding-top: 45px;
-}
-
-.nav-item a {
-	margin: 0 25px;
-}
-
-.account .login {
-	color: #315BC7;
-	padding: 16px 32px;
-}
-
-.account .register {
-	background-color: #315BC7;
-	border-radius: 39px;
-	color:  #fff;
-	padding: 16px 32px;
-}
-
-.responsive-btn {
-	width: 50px;
-	height: 50px;
-	background-color: #fff;
-	display: none;
-}*/
-
 nav {
 	padding-top: 45px !important;
 }
@@ -67,6 +33,11 @@ nav {
 	border-radius: 39px;
 	color:  #fff;
 	padding: 16px 32px;
+}
+
+.register:hover {
+	background-color: blue;
+	transition: .5s;
 }
 
 
@@ -109,6 +80,12 @@ nav {
 	color:  #fff;
 	border-radius: 35px;
 	margin-top: 52px;
+}
+
+#hero button:hover {
+	background-color: blue;
+	color: #fff;
+	transition: .5s;
 }
 
 .content {
@@ -260,6 +237,12 @@ nav {
 	color: #fff;
 }
 
+.item-desc button:hover {
+	background-color: blue;
+	color: #fff;
+	transition: .5s;
+}
+
 /*testimonial*/
 #testimonial {
 	margin-top: 83px;
@@ -315,6 +298,11 @@ footer {
 	margin-bottom: 21px;
 }
 
+.explore a:hover, .account-footer a:hover {
+	color:  rgba(255, 255, 255, 0.7);
+	transition: .3s;
+}
+
 footer .about h1 {
 	font-size: 26px;
 	font-weight: 700;
@@ -330,6 +318,8 @@ footer .about p {
 .social-media a {
 	margin: 0 5px;
 }
+
+
 /*Responsive*/
 
 /*phone*/
@@ -351,7 +341,6 @@ footer .about p {
 
 	#hero {
 		margin-top: 80px;
-		/*padding-bottom: 170px;*/
 	}
 
 	#hero h1 {
@@ -369,76 +358,65 @@ footer .about p {
 
 
 	.content-text h2 {
-	font-weight: 700;
-	font-size: 38px;
-	color:  #fff;
-	margin-bottom: 36px;
-}
+		font-weight: 700;
+		font-size: 38px;
+		color:  #fff;
+		margin-bottom: 36px;
+	}
 
-.content-text p {
-	font-weight: 500;
-	font-size: 24px;
-	color: rgba(255, 255, 255, 0.75)
-}
+	.content-text p {
+		font-weight: 500;
+		font-size: 24px;
+		color: rgba(255, 255, 255, 0.75)
+	}
 
-.benefit-image {
-	/*display: none;*/
-	width: 50%;
-}
+	.benefit-image {
+		width: 50%;
+	}
 
-/*.benefit-list h1 {
-	font-weight: 600;
-	font-size: 26px;
-}
+	#video h1 {
+		font-weight: 700;
+		font-size: 46px;
+		margin-bottom: 60px;
+		margin-top: 0;
+		padding-top: 170px;
 
-.benefit-list p {
-	font-size: 16px;
-	color: rgba(10, 19, 41, 0.55);
-}*/
+	}
 
-#video h1 {
-	font-weight: 700;
-	font-size: 46px;
-	margin-bottom: 60px;
-	margin-top: 0;
-	padding-top: 170px;
+	.play-btn {
+		width: 30px;
+		height: 30px;
+	}
 
-}
+	.benefit-header h1, .header-desc h1 {
+		font-weight: 600;
+		font-size: 38px;
+		margin-bottom: 31px;
+	}
 
-.play-btn {
-	width: 30px;
-	height: 30px;
-}
+	.benefit-header p, .header-desc p {
+		font-size: 18px;
+		color: rgba(10, 19, 41, 0.55);
+		margin-bottom: 60px;
+	}
 
-.benefit-header h1, .header-desc h1 {
-	font-weight: 600;
-	font-size: 38px;
-	margin-bottom: 31px;
-}
+	#testimonial h1 {
+		font-weight: 700;
+		font-size: 56px;
+		margin-bottom: 70px;
+		text-align: center;
+	}
 
-.benefit-header p, .header-desc p {
-	font-size: 18px;
-	color: rgba(10, 19, 41, 0.55);
-	margin-bottom: 60px;
-}
+	.about, .explore, .account-footer, .office {
+		margin-bottom: 20px;
+	}
 
-#testimonial h1 {
-	font-weight: 700;
-	font-size: 56px;
-	margin-bottom: 70px;
-	text-align: center;
-}
-
-.about, .explore, .account-footer, .office {
-	margin-bottom: 20px;
-}
-
-.explore a, .account-footer a, .office p {
-	color:  #fff;
-	font-weight: 300;
-	text-decoration: none;
-	margin-bottom: 10px;
-}
+	.explore a, .account-footer a, .office p {
+		color:  #fff;
+		font-weight: 300;
+		text-decoration: none;
+		margin-bottom: 10px;
+	}
 
 
 }
@@ -457,7 +435,6 @@ footer .about p {
 
 	#hero {
 		margin-top: 80px;
-		/*padding-bottom: 170px;*/
 	}
 
 	#hero h1 {
@@ -526,10 +503,29 @@ footer .about p {
 	}
 
 	#testimonial h1 {
-	font-weight: 600;
-	font-size: 46px;
-	margin-bottom: 70px;
-	text-align: center;
-}
+		font-weight: 600;
+		font-size: 46px;
+		margin-bottom: 70px;
+		text-align: center;
+	}
+
+	.item-desc h2 {
+		font-weight: 500;
+		font-size: 26px;
+		margin-bottom: 20px;
+	}
+
+	.item-desc h1 {
+		font-weight: 600;
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+
+	.item-desc p {
+		font-weight: 300;
+		font-size: 18px;
+		color: #0A1329;
+		margin-bottom: 30px;
+	}
 
 }

@@ -11,31 +11,14 @@
     <!-- my css -->
     <link rel="stylesheet" href="Asset/css/style.css">
 
+    <!-- lib -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
     <title>Hello, world!</title>
   </head>
   <body>
     <section id="header">
-      <!-- navbar -->
-      <!-- <nav class="">
-        <div class="container">
-          <div class="navbar-content d-flex justify-content-between">
-            <div class="logo">
-              <h4><img class="mr-3" src="Asset/Image/Logo.png" alt="">DroneshopID</h4>
-            </div>
-            <div class="nav-item">
-              <a href="">Home</a>
-              <a href="">Gallery</a>
-              <a href="">Product</a>
-              <a href="">Review</a>
-              <a href="">Suport</a>
-            </div>
-            <div class="account">
-              <a class="login" href="">Sign In</a>
-              <a class="register" href="">Register</a>
-            </div>
-          </div>
-        </div>
-      </nav> -->
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
           <a class="navbar-brand" href="#"><img class="mr-3" src="Asset/Image/Logo.png" alt=""> DroneshoopID</a>
@@ -53,7 +36,7 @@
             </div>
             <div class="navbar-nav account">
               <a href="" class="login">Sign In</a>
-              <a href="" class="register">Register</a>
+              <a href="" class="register btn">Register</a>
             </div>
           </div>
         </div>
@@ -72,7 +55,7 @@
                 </span>
                 <h1>Representing Drone Light</h1>
                 <p>Look up the sky and beautiful world with simple navigation. Just record and get a lot memories to share, lightly and fast like a lightning.</p>
-                <button>GET NOW</button>
+                <button class="btn">GET NOW</button>
               </div>
             </div>
             <div class="col-lg-6">
@@ -89,7 +72,7 @@
     <section id="content">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-6 content">
+          <div class="col-lg-6 content" data-aos="fade-right">
             <img src="Asset/Image/ultra_light.png" alt="" class="img-fluid">
             <div class="content-text">
               <h2>Ultra Light</h2>
@@ -97,7 +80,7 @@
                 component <span>under 200 g</span></p>
               </div>
             </div>
-            <div class="col-lg-6 content">
+            <div class="col-lg-6 content" data-aos="fade-left">
               <img src="Asset/Image/best_resolution.png" alt="" class="img-fluid">
               <div class="content-text">
                 <h2>Best Resolution</h2>
@@ -121,64 +104,30 @@
                   best of flying operation.</p>
                 </div>
               </div>
-
-              <!-- <div class="row justify-content-center">
-                <div class="col-lg-3">
-                  <div class="benefit-list text-center">
-                    <h1>4K</h1>
-                    <p>Camera Resolution</p>
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="benefit-list text-center">
-                    <h1>2 TB</h1>
-                    <p>Storage Capacity</p>
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="benefit-list text-center">
-                    <h1>60 M/s</h1>
-                    <p>Super Max Speed</p>
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="benefit-list text-center">
-                    <h1>30 Mins</h1>
-                    <p>Long Flight Time</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row justify-content-center">
-                <div class="col-lg-6">
-                  <div class="benefit-image">
-                    <img src="Asset/Image/features_cut_bg.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div> -->
             </div>
             <div class="row justify-content-center">
               <div class="col-lg-6">
                 <div class="row">
                   <div class="col-lg-3 col-sm-6">
-                    <div class="benefit-list text-center">
+                    <div class="benefit-list text-center" data-aos="fade-up">
                       <h1>4K</h1>
                       <p>Camera Resolution</p>
                     </div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
-                    <div class="benefit-list text-center">
+                    <div class="benefit-list text-center" data-aos="fade-up" data-aos-delay="100">
                       <h1>2 TB</h1>
                       <p>Storage Capacity</p>
                     </div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
-                    <div class="benefit-list text-center">
+                    <div class="benefit-list text-center" data-aos="fade-up" data-aos-delay="200">
                       <h1>30 Min</h1>
                       <p>Long Flight Time</p>
                     </div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
-                    <div class="benefit-list text-center">
+                    <div class="benefit-list text-center" data-aos="fade-up" data-aos-delay="300">
                       <h1>60 M/s</h1>
                       <p>Super Max Speed</p>
                     </div>
@@ -188,7 +137,7 @@
             </div>
             <div class="row justify-content-center">
               <div class="col-lg-4 d-flex justify-content-center">
-                <div class="benefit-image">
+                <div class="benefit-image" data-aos="fade-up">
                   <img src="Asset/Image/features_cut_bg.png" alt="" class="img-fluid">
                 </div>
               </div>
@@ -230,7 +179,7 @@
             </div>
             <div class="row">
               <div class="col-lg-4">
-                <div class="product-item">
+                <div class="product-item" data-aos="fade-up">
                   <div class="item-img">
                     <img src="Asset/Image/mini_drone 1.png" alt="">
                   </div>
@@ -241,12 +190,12 @@
                       affordable price range. Camera
                       up to 4K resolution, optimize shots
                     automatically.</p>
-                    <button>Get Now</button>
+                    <button class="btn">Get Now</button>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="product-item">
+                <div class="product-item" data-aos="fade-up" data-aos-delay="100">
                   <div class="item-img">
                     <img src="Asset/Image/josh-sorenson-ouuigywbXlI-unsplash 1.png" alt="">
                   </div>
@@ -257,12 +206,12 @@
                       Setting apperture manually and high
                       baterry performance. Drone light is
                     everything you need.</p>
-                    <button>Get Now</button>
+                    <button class="btn">Get Now</button>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="product-item">
+                <div class="product-item" data-aos="fade-up" data-aos-delay="200">
                   <div class="item-img">
                     <img src="Asset/Image/phantom_drone 1.png" alt="">
                   </div>
@@ -273,7 +222,7 @@
                       can move faster and quickly like a ghost.
                       Focus on speed so you can investigate
                     environtment quickly.</p>
-                    <button>Get Now</button>
+                    <button class="btn">Get Now</button>
                   </div>
                 </div>
               </div>
@@ -294,7 +243,7 @@
             </div>
             <div class="row">
               <div class="col-lg-4">
-                <div class="testi-item">
+                <div class="testi-item" data-aos="fade-right">
                   <div class="testi-text">
                     <p>“With high resolution camera,
                       picture become clear and beautiful.
@@ -312,7 +261,7 @@
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="testi-item">
+                <div class="testi-item" data-aos="fade-up">
                   <div class="testi-text">
                     <p>“Taking high view video become
                       easy and faster. Battery perfomance
@@ -330,7 +279,7 @@
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="testi-item">
+                <div class="testi-item" data-aos="fade-left">
                   <div class="testi-text">
                     <p>“Making video content for my trip
                       vlog so powerful and wonderful.
@@ -398,6 +347,14 @@
         <!-- end footer -->
 
         <!-- Optional JavaScript; choose one of the two! -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            duration:1500,
+            once:true,
+          });
+        </script>
+
 
         <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
