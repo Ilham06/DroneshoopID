@@ -1,7 +1,7 @@
 # DroneshoopID
 Drone Shoop Landing Page
 
-Slicing dari https://buildwithangga.com
+Slicing dari https://pixel.buildwithangga.com
 
 Dibuat dengan :
 - Html
