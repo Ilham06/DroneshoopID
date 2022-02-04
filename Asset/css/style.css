@@ -167,7 +167,7 @@ nav {
 }
 
 .video {
-	background-image: url("../Image/video-bg.png");
+	background-image: url("../Image/video-bg.jpg");
 	background-size: cover;
 	width: 100%;
 	height: 100%;
@@ -201,7 +201,7 @@ nav {
 	padding: 30px;
 	border-radius: 20px;
 	border: 1px solid #E5E5E5;
-	margin-bottom: 20px;
+	height: 100%;
 }
 
 .product-item img {
@@ -265,7 +265,7 @@ nav {
 }
 
 .testi-text p {
-	color: #0A1329;
+	color: #a0a0a0;
 	margin-bottom: 30px;
 }
 
